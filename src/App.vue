@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>輔大資訊中心－午餐地圖</h1>
+    <h1 style="font-family:'微軟正黑體'">輔大資訊中心－午餐地圖</h1>
     <div class="container">
       <gmap-map :center="center" :zoom="16" style="width: 100%; height: 450px" :options="options">
         <gmap-info-window
